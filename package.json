@@ -1,0 +1,23 @@
+{
+    "name": "express",
+    "GITHUB_ACESS_TOKEN": "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",
+    "version": "1.0.0",
+    "description": "Making a API ",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "author": "Yakshit (Axn)",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-async-handler": "^1.2.0",
+        "mongoose": "^6.9.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
